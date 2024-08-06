@@ -1,5 +1,6 @@
 {
   "name": "erb-syntax-highlighting",
+  "publisher": "NavroO",
   "displayName": "ERB Syntax Highlighting",
   "description": "Adds syntax highlighting support for JS with embedded Ruby",
   "version": "0.0.1",
