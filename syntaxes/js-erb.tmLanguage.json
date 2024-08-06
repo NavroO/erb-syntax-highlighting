@@ -1,0 +1,20 @@
+{
+  "scopeName": "text.js.erb",
+  "patterns": [
+    {
+      "include": "source.js"
+    },
+    {
+      "begin": "<%=?",
+      "end": "%>",
+      "name": "source.ruby.embedded.erb",
+      "patterns": [
+        {
+          "include": "source.ruby"
+        }
+      ]
+    }
+  ],
+  "repository": {},
+  "fileTypes": [".js.erb"]
+}

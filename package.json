@@ -1,0 +1,38 @@
+{
+  "name": "erb-syntax-highlighting",
+  "displayName": "ERB Syntax Highlighting",
+  "description": "Adds syntax highlighting support for JS with embedded Ruby",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-repository-name"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "erb-js",
+        "aliases": [
+          "JS ERB",
+          "js.erb"
+        ],
+        "extensions": [
+          ".js.erb"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "erb-js",
+        "scopeName": "text.js.erb",
+        "path": "./syntaxes/js-erb.tmLanguage.json"
+      }
+    ]
+  }
+}
